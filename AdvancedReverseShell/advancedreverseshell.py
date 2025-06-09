@@ -13,4 +13,4 @@ def server():
   s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
   s.bind(("192.168.0.1", 4444))
   s.listen(5)
-
+  target, ip = s.accept()
