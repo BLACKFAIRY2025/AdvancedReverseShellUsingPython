@@ -25,5 +25,4 @@ def server():
   
 server()
 shell()
-
 s.close()
