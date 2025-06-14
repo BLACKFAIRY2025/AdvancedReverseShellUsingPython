@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AdvancedReverseShellUsingPython.iml" filepath="$PROJECT_DIR$/.idea/AdvancedReverseShellUsingPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReverseShellToRunCommandsUsingPython.iml" filepath="$PROJECT_DIR$/.idea/ReverseShellToRunCommandsUsingPython.iml" />
     </modules>
   </component>
 </project>
